@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { GetPersonaje } from '../services/DbzService';
+import { GetPersonaje } from '../services/PersonajesService';
 import { Card } from './Card';
 
 
 
-export const DbzAppi = () => {
+export const PersonajesAppi = () => {
 
     const [personajes, setPersonajes] = useState([]);
     const [selecPersonaje, setSelecPersonaje] = useState();
