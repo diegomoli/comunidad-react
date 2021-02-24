@@ -1,0 +1,15 @@
+.dead{
+    color: red;
+    text-decoration: line-through;
+    /* background-color: red; */
+}
+
+.alive{
+    color: green;
+}
+
+.tarjeta{
+    width: 18rem;
+    /* margin-top: 1rem; */
+    
+}
