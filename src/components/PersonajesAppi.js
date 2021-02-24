@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { GetPersonaje } from '../services/PersonajesService';
+import { PersonajesService } from '../services/PersonajesService';
 import { Card } from './Card';
 
 
@@ -12,7 +12,7 @@ export const PersonajesAppi = () => {
     
 
     useEffect(() => {
-        GetPersonaje().then(setPersonajes);
+        PersonajesService().then(setPersonajes);
     }, [])
     // console.log(personajes);
 

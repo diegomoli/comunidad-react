@@ -1,11 +1,5 @@
-export const GetPersonaje= async () => {
-    // try{
-        
-    //     return await fetch(`https://rickandmortyapi.com/api/character`).then(res => res.json().then(data=>data))
-        
-    // }catch(err){
-    //     console.log(err);
-    // }
+export const PersonajesService= async () => {
+    
 
     const URL=`https://rickandmortyapi.com/api/character`;
     const resp= await fetch(URL);
